@@ -1,0 +1,21 @@
+{
+  "lokality": [
+    {
+      "name": "Pririodovedecka fakulta UK",
+      "address": "Albertov 6, 128 00 Praha 2",
+      "website": "https://www.natur.cuni.cz/"
+    },
+    {
+      "name": "Rektorat UK",
+      "address": "Ovocný trh 560/5, 116 36 Praha 1",
+      "website": "https://cuni.cz/UK-1458.html"
+    }
+  ],
+  "arealy": [
+    {
+      "name": "Lodenice Regata",
+      "address": "Podolské nábřeží - přístav 4, 140 00 Praha 4 - Podolí",
+      "website": "https://www.natur.cuni.cz/fakulta/telesna-vychova/pracoviste/lodenice-regata"
+    }
+  ]
+}

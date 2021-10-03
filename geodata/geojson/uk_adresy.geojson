@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.888058,
+          40.270003          
+        ]
+      },
+      "properties": {
+        "name": "Broad Street Market",
+        "address": "1233 N 3rd St, Harrisburg, PA 17102",
+        "website": "http://www.broadstreetmarket.org/",
+        "group": "sites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.891521,
+          40.271725
+        ]
+      },
+      "properties": {
+        "name": "Zeroday Brewing Co.",
+        "address": "250 Reily St #103, Harrisburg, PA 17102",
+        "website": "http://www.zerodaybrewing.com/",
+        "group": "sites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.889311,
+          40.269676
+        ]
+      },
+      "properties": {
+        "name": "Midtown Scholar Bookstore",
+        "address": "1302 N 3rd St, Harrisburg, PA 17102",
+        "website": "http://www.midtownscholar.com",
+        "group": "sites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [
+            -76.901736,
+            40.291271
+          ],
+          [
+            -76.901444,
+            40.293462
+          ],
+          [
+            -76.900975,
+            40.29472
+          ],
+          [
+            -76.901168,
+            40.295544
+          ],
+          [
+            -76.901331,
+            40.295579
+          ],
+          [
+            -76.901299,
+            40.295792
+          ],
+          [
+            -76.900926,
+            40.296878
+            
+          ],
+          [
+            -76.900416,
+            40.29686
+          ],
+          [
+            -76.900424,
+            40.295536
+          ],
+          [
+            -76.89987,
+            40.295422
+          ],
+          [
+            -76.89599,
+            40.295161
+          ],
+          [
+            -76.895767,
+            40.294958
+          ],
+          [
+            -76.895515,
+            40.294569
+          ],
+          [
+            -76.895426,
+            40.294229
+          ],
+          [
+            -76.895356,
+            40.293666
+          ],
+          [
+            -76.896584,
+            40.29358
+          ],
+          [
+            -76.896844,
+            40.29369
+          ],
+          [
+            -76.897026,
+            40.293843
+          ],
+          [
+            -76.897182,
+            40.29388
+          ],
+          [
+            -76.897684,
+            40.293909
+          ],
+          [
+            -76.897671,
+            40.294052
+          ],
+          [
+            -76.899361,
+            40.294148
+          ],
+          [
+            -76.899372,
+            40.294095
+          ],
+          [
+            -76.899479,
+            40.294075
+          ],
+          [
+            -76.900077,
+            40.294104
+          ],
+          [
+            -76.900219,
+            40.292756
+          ],
+          [
+            -76.899578,
+            40.291379
+          ]
+        ]]
+      },
+      "properties": {
+        "name": "Italian Lake",
+        "address": "3rd and Division Streets",
+        "neighborhood": "Uptown",
+        "group": "parks"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [
+            -76.891393,
+            40.269612
+          ],
+          [
+            -76.891046,
+            40.269755
+          ],
+          [
+            -76.890852,
+            40.269496
+          ],
+          [
+            -76.891201,
+            40.269344
+          ]
+        ]]
+      },
+      "properties": {
+        "name": "Penn and Sayford Park",
+        "address": "Penn and Sayford Streets",
+        "neighborhood": "Midtown",
+        "group": "parks"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [
+            -76.893058,
+            40.267763
+          ],
+          [
+            -76.892736,
+            40.267897
+          ],
+          [
+            -76.892103,
+            40.267132
+          ],
+          [
+            -76.89248,
+            40.266989
+          ]
+        ]]
+      },
+      "properties": {
+        "name": "Sunken Gardens",
+        "address": "1210 N Front St",
+        "neighborhood": "Midtown",
+        "group": "parks"
+      }
+    }
+  ]
+}
