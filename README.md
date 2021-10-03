@@ -1,2 +1,2 @@
 # geoinformatika
-skripty
+geodata & skripty
