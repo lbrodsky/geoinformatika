@@ -1,0 +1,4 @@
+ <gml:LineString gml:id="p21" srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <gml:posList srsDimension="2">14.4168856, 50.0619956 14.4177544, 50.0621469</gml:posList>
+ </gml:LineString >
+ 
