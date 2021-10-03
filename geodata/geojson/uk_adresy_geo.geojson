@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.424785928454375,
+          50.068858342921914
+        ]
+      },
+      "properties": {
+        "name": "Pririodovedecka fakulta UK",
+        "address": "Albertov 6, 128 00 Praha 2",
+        "website": "https://www.natur.cuni.cz/", 
+        "group": "lokality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.423504877392983,
+          50.086482667224665
+        ]
+      },
+      "properties": {
+        "name": "Rektorat UK",
+        "address": "Ovocný trh 560/5, 116 36 Praha 1",
+        "website": "https://cuni.cz/UK-1458.html", 
+        "group": "lokality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [
+            14.4168856, 
+            50.0619956
+          ],
+          [
+            14.4177544, 
+            50.0621469
+          ],
+          [
+            14.4191736, 
+            50.0592836 
+          ],
+          [
+            14.4178725, 
+            50.0592542
+          ]
+        ]]
+      },
+      "properties": {
+        "name": "Lodenice Regata",
+        "address": "Podolské nábřeží - přístav 4, 140 00 Praha 4 - Podolí",
+        "website": "https://www.natur.cuni.cz/fakulta/telesna-vychova/pracoviste/lodenice-regata", 
+        "group": "arealy" 
+      }
+    } 
+  ]
+}
