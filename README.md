@@ -1,0 +1,2 @@
+# geoinformatika
+skripty
