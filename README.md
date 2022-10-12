@@ -81,8 +81,8 @@ TODO: vlastni lokalni instalace
 ```
 **DULEZITE**: 
 
-    * pri instalaci nastavte **pip yes** set 
-    * a **Python to environment variables** !!!
+    * pri instalaci nastavte pip yes
+    * a Python to environment variables !!!
 
 - Instalace knihoven: 
 Pokud pouzivate **PIP** 
@@ -116,8 +116,8 @@ $ python-3.9.2-amd64.exe
 ```
 **DULEZITE**: 
 
-    * pri instalaci nastavte **pip yes** set 
-    * a **Python to environment variables** !!!
+    * pri instalaci nastavte pip yes
+    * a Python to environment variables!!!
 
 - Instalace knihoven: 
 Pokud pouzivate **PIP** 
@@ -134,6 +134,7 @@ Podobne pro dalsi knihovny.
 ```
 > python -m pip install jupyter
 ```
+Pokud jste instalovali Python z kompilace Anaconda, tak musite postupovat dle instrukci 'conda'. Zpravidla: > conda install numpy, atd. 
 
 - GDAL/OGR: https://gdal.org/download.html# 
 - GDAL-Python instalace: https://gdal.org/api/python_bindings.html#installation
