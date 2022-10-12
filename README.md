@@ -5,7 +5,7 @@
 * Programovaci/skriptovaci jazyk: Python3 (zpravidla verze 3.9+) 
 * Interaktivni prostredi: ipython, Jupyter Notebook nebo JupyeterLab 
 
-Knihovny pro pro praci s geodaty: 
+**Knihovny pro pro praci s geodaty**: 
 * GDAL/OGR (v prikazove radce) [GDAL](https://gdal.org)
 * GDAL-Python (rozsireni GDAL knihovny do prostredi Python) [GDAL-Python](https://gdal.org/api/python_bindings.html)
 * TODO: geopandas, rasterio 
@@ -55,10 +55,10 @@ K vyuziti OSGeo live je treba instalovat:
 * OSGeo live, v.9/10 (linux) a vyssi https://live.osgeo.org/en/download.html
 
 Potrebne sw aplikace: 
+- Skriptovaci prostredi: Python3, Jupyter Notebook 
 - Desktop aplikace: QGIS
-- Geodatabaze: PostgreSQL/PostGIS server a PgAdmin III, SpatiaLite
 - Text editor: Leafpad
-- Linux terminal: $  (TODO nazev)
+- Linux terminal: $  
 
 Soubor ../OSGeo/osgeolive-vm-9.0/osgeo-live-9.0.vmdk (nebo jina verze) je treba pripojit do VirtualBoxu.  
 
@@ -91,7 +91,7 @@ Pokud pouzivate **PIP**
 ```
 Podobne pro dalsi knihovny. 
 ```
-> pip install ipaython 
+> pip install ipython 
 ```
 
 
@@ -126,7 +126,7 @@ Pokud pouzivate **PIP**
 ```
 Podobne pro dalsi knihovny. 
 ```
-> pip install ipaython 
+> pip install ipython 
 ```
 
 - Instalace Jupyter notebook
