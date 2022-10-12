@@ -137,5 +137,24 @@ Podobne pro dalsi knihovny.
 ```
 
 - GDAL/OGR: https://gdal.org/download.html# 
+Distribuce: Debian/Ubuntu 
+```
+sudo add-apt-repository ppa:ubuntugis/ppa
+sudo apt-get update
+sudo apt-get install gdal-bin
+ogrinfo --version
+```
+
 - GDAL-Python instalace: https://gdal.org/api/python_bindings.html#installation
 
+```
+sudo apt-get install libgdal-dev
+
+export CPLUS_INCLUDE_PATH=/usr/include/gdal
+export C_INCLUDE_PATH=/usr/include/gdal
+
+pip install GDAL
+nebo 
+pip install GDAL==<GDAL VERSION FROM OGRINFO>
+
+```
