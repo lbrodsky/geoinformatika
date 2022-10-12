@@ -1,15 +1,14 @@
-# Vypocetni prostredi pro vyvoj geoinformacnich systemu v Python 
+# Vypocetni prostredi Python pro geoinformatiku
 
 **Pozadavky**: 
-Operacni system: GNU/Linux, Unix, Mac, Windows 
-Programovaci/skriptovaci jazyk: Python3 (zpravidla verze 3.9+) 
-Interaktivni prostredi: ipython, Jupyter Notebook nebo JupyeterLab 
+* Operacni system: GNU/Linux, Unix, Mac, Windows 
+* Programovaci/skriptovaci jazyk: Python3 (zpravidla verze 3.9+) 
+* Interaktivni prostredi: ipython, Jupyter Notebook nebo JupyeterLab 
 
-Knihovny pro pro praci s geodaty: 
-
-    * GDAL/OGR (v prikazove radce) [GDAL](https://gdal.org)
-    * GDAL-Python (rozsireni GDAL knihovny do prostredi Python) [GDAL-Python](https://gdal.org/api/python_bindings.html)
-    * TODO: geopandas, rasterio 
+**Knihovny pro pro praci s geodaty**: 
+* GDAL/OGR (v prikazove radce) [GDAL](https://gdal.org)
+* GDAL-Python (rozsireni GDAL knihovny do prostredi Python) [GDAL-Python](https://gdal.org/api/python_bindings.html)
+* TODO: geopandas, rasterio 
 
 Knihovny pro praci s daty v Python: NumPy (maticove pocty) 
 
@@ -56,10 +55,10 @@ K vyuziti OSGeo live je treba instalovat:
 * OSGeo live, v.9/10 (linux) a vyssi https://live.osgeo.org/en/download.html
 
 Potrebne sw aplikace: 
+- Skriptovaci prostredi: Python3, Jupyter Notebook 
 - Desktop aplikace: QGIS
-- Geodatabaze: PostgreSQL/PostGIS server a PgAdmin III, SpatiaLite
 - Text editor: Leafpad
-- Linux terminal: $  (TODO nazev)
+- Linux terminal: $  
 
 Soubor ../OSGeo/osgeolive-vm-9.0/osgeo-live-9.0.vmdk (nebo jina verze) je treba pripojit do VirtualBoxu.  
 
@@ -82,8 +81,8 @@ TODO: vlastni lokalni instalace
 ```
 **DULEZITE**: 
 
-    * pri instalaci nastavte **pip yes** set 
-    * a **Python to environment variables** !!!
+    * pri instalaci nastavte pip yes
+    * a Python to environment variables !!!
 
 - Instalace knihoven: 
 Pokud pouzivate **PIP** 
@@ -92,7 +91,7 @@ Pokud pouzivate **PIP**
 ```
 Podobne pro dalsi knihovny. 
 ```
-> pip install ipaython 
+> pip install ipython 
 ```
 
 
@@ -117,8 +116,8 @@ $ python-3.9.2-amd64.exe
 ```
 **DULEZITE**: 
 
-    * pri instalaci nastavte **pip yes** set 
-    * a **Python to environment variables** !!!
+    * pri instalaci nastavte pip yes
+    * a Python to environment variables!!!
 
 - Instalace knihoven: 
 Pokud pouzivate **PIP** 
@@ -127,7 +126,7 @@ Pokud pouzivate **PIP**
 ```
 Podobne pro dalsi knihovny. 
 ```
-> pip install ipaython 
+> pip install ipython 
 ```
 
 - Instalace Jupyter notebook
@@ -135,6 +134,7 @@ Podobne pro dalsi knihovny.
 ```
 > python -m pip install jupyter
 ```
+Pokud jste instalovali Python z kompilace Anaconda, tak musite postupovat dle instrukci 'conda'. Zpravidla: > conda install numpy, atd. 
 
 - GDAL/OGR: https://gdal.org/download.html# 
 Distribuce: Debian/Ubuntu 
