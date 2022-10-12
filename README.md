@@ -1,15 +1,14 @@
-# Vypocetni prostredi pro vyvoj geoinformacnich systemu v Python 
+# Vypocetni prostredi Python pro geoinformatiku
 
 **Pozadavky**: 
-Operacni system: GNU/Linux, Unix, Mac, Windows 
-Programovaci/skriptovaci jazyk: Python3 (zpravidla verze 3.9+) 
-Interaktivni prostredi: ipython, Jupyter Notebook nebo JupyeterLab 
+* Operacni system: GNU/Linux, Unix, Mac, Windows 
+* Programovaci/skriptovaci jazyk: Python3 (zpravidla verze 3.9+) 
+* Interaktivni prostredi: ipython, Jupyter Notebook nebo JupyeterLab 
 
 Knihovny pro pro praci s geodaty: 
-
-    * GDAL/OGR (v prikazove radce) [GDAL](https://gdal.org)
-    * GDAL-Python (rozsireni GDAL knihovny do prostredi Python) [GDAL-Python](https://gdal.org/api/python_bindings.html)
-    * TODO: geopandas, rasterio 
+* GDAL/OGR (v prikazove radce) [GDAL](https://gdal.org)
+* GDAL-Python (rozsireni GDAL knihovny do prostredi Python) [GDAL-Python](https://gdal.org/api/python_bindings.html)
+* TODO: geopandas, rasterio 
 
 Knihovny pro praci s daty v Python: NumPy (maticove pocty) 
 
