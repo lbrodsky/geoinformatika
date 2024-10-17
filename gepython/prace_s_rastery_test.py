@@ -17,7 +17,7 @@ import numpy as np
 
 ### DATA ###
 # nastavte cestu k ulozenemu souboru 'S2A_T33UVR_20180703T101029.tif'
-cesta = './'
+cesta = '/Users/lukas/Work/prfuk/vyuka/geoinformatika/src/geoinformatika/geodata/raster/'
 # Muzete vyuzit i jiny soubor, nejlepe vyrez multispektralniho snimku
 soubor = 'S2A_T33UVR_20180703T101029.tif'
 
@@ -26,65 +26,67 @@ soubor = 'S2A_T33UVR_20180703T101029.tif'
 # Funkce `rasterio.open()` přijímá řetězec cesty a vrací otevřený objekt datové sady.
 # Rasterio otevře data pomocí ovladače GDAL.
 # otevřete raster do proměnné ds
-pass
+ds = rasterio.open(os.path.join(cesta, soubor))
 
 # Vypište datovy typ objektu
-pass
+type(ds)
 
 # 2. Čtení metadat rasteru (stavove attributy otevreneho objektu dataset)
-
+ds.meta
 # Vypište stavový atribut `ds.closed`
-pass
+ds.closed
 # Vypište mod datasetu pomocí atributu `ds.mode`
-pass
+ds.mode
 
 # Metadata (vlastnosti) datasetu - take atributy objektu
 # Vypište počet kanalu v datasetu pomocí atribut `ds.count`
-pass
+ds.count
 # Vypište šířku pole v datasetu pomocí atribut `ds.width`
-pass
+ds.width
 # Vypište výšku pole v datasetu pomocí atribut `ds.height`
-pass
+ds.height
 
 # Rasterio dataset má atribut meta, který poskytuje souhrnné informace včetně parametrů geotransformace
 # Získejte šířku rastru z  meta
-pass
+ds.meta["width"]
 # Jaký datový typ je proměnná meta
-pass
+type(meta)
 # Vypište jednotlivé paramtery z proměnné meta
-pass
+for k in meta:
+    print(k, meta[k])
 
 # Indexy kanálu/pásem lze získat z atributu `ds.indexes`
 # Vypište je
-pass
+ds.indexes
 # a jejich datove typy pomocí atributu `ds.dtypes`
-pass
+ds.dtypes
 # Jaká je radiometrická hloubka pásem Sentinel-2?
 
 # Georeferencovani rasteru
 # Vypište minimální ohraničující obdélník (Bbox) datasetu z atributu `ds.bounds`
-pass
+ds.bounds
 # Vypište souřadnice levého horního rohu rasteru z atributu `ds.bounds.left`
-pass
+ds.bounds.left
+
 
 # Souřadnicový referenční systém - CRS
 # Vypište atribut CRS z yadatasetu pomocí `ds.crs`
-pass
+ds.crs
 # Převeďte ho na EPSG string pomocí `ds.crs.to_string()` - jedná se již o metodu třídy rasterio
-pass
+ds.crs.to_string()
 # Převeďte do formátu Well Known Text pomocí `ds.crs.to_wkt()`
-pass
+ds.crs.to_wkt()
 
 ### ČTENÍ DAT RASTERU ###
 # Načtěte data z pásma 1 do proměnné B1 pomocí metody `read()` z data asetu ds
 # index pásma: 1
-pass
+B1 = ds.read(1)
 # Rasterio metoda .read() vrátí pole hodnot typu NumPy. Je to tak? Ověřte.
-pass
+type(B1)
 #
 
 # Jaký datový typ je použit pro jednotlivé hodnoty pole? Numpy atribut `.dtype`
-pass
+B1.dtype
 
 # Indexování honot v NumPy je podobné seznamu
 lst = [3, 6, 2, 8, 9]
@@ -94,12 +96,13 @@ print(lst[0])
 print(lst[-1])
 
 # adresovani hodnot NumPy 2D pole je: B1[výška, šířka]
+B1[0, 0]
 
 
 # Mějme tyto indexy pole
 x_ix = 100; y_ix = 150
 # Zjistěte hodnotu v těchto indexových souřadnicích
-pass
+B1[y_ix, x_ix]
 
 # Indexovaní pomocí souřadnic
 # Datové sady mají metodu `DatasetReader.index()` pro získání indexů pole odpovídajících bodům
